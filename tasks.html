@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tasks</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<div id="item">
+		<div id="items">
+			<div class="items margin">
+				
+				<p class="headerText">Pending</p>
+				<ol id="pending">
+				</ol>
+			</div>
+		</div>
+		<div id="items1">
+			<div class="items">
+				<p class="headerText">In Progress</p>
+				<ol id="in_progress">
+				</ol>
+			</div>
+		</div>
+		<div id="items2">
+			<div  class="items">
+				<p class="headerText">Completed</p>
+				<ol id="completed">
+				</ol>
+			</div>
+		</div>
+		<div id="items3">
+			<div class="items">
+				<p class="headerText">Add a task</p>
+				<div class="inputBox">
+					<input class="inputs" id="titleInput" type="text" placeholder="Title">
+					<textarea class="inputs" id="texarea" type="text" placeholder="Description"></textarea>
+					<input class="inputs margin-top-in form-control" id="dateInput" type="date" placeholder="Due Date (DD/mm/yyy)">
+					<button class="btn btn-primary" id="addTask">Add Task</button>
+					<button class="btn btn-primary" id="clearBtn">Clear Data</button>
+				</div>
+				<span id="delete">Drag here to delete</span>
+				<ol id="drag_to_delete">
+					
+				</ol>
+			</div>
+		</div>
+		<div id="messageBox">
+			<div id="message">
+				<div class="topD">
+					<span class="messageS"><b>Message</b></span>
+					<button class="closeB"></button>
+				</div>
+				<div class="centerD">
+					<span class="textM">Title can not be empty</span>
+				</div>
+				<button class="ok">ok</button>
+			</div>
+		</div>
+		
+	</div>
+
+
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+	<script src='js/jquery.3.3.1.min.js'></script>
+ 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 	<script src='js/scripts.js'></script>
+
+</body>
+</html>

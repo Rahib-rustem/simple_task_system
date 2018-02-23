@@ -1,0 +1,192 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #374A5D;
+	overflow: hidden;
+}
+
+#item {
+	width: 100%;
+	height: 700px;
+	/*background: #374A5D;*/
+	padding-top: 51px;
+	display: flex;
+	margin-left: 152px;
+}
+
+.items {
+
+	width: 250px;
+	min-height: 255px;
+	background: #E3E3E3;
+	display: inline-grid;
+	border-radius: 10px;
+	margin: 3px;
+}
+
+.margin {
+	/*margin-left: 158px;*/
+}
+
+.headerText {
+	margin-top: 13px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	text-rendering: optimizelegibility;
+	font-family: normal;
+}
+
+#titleInput {
+	width: 239px;
+	height: 28px;
+
+}
+
+#texarea {
+	width: 239px;
+	height: 50px;
+}
+
+#dateInput {
+	width: 239px;
+	height: 28px;
+}
+
+.inputBox {
+	display: block;
+}
+
+.inputs {
+	margin-left: 5px;
+	border-radius: 4px;
+	padding-left: 4px;
+
+}
+
+#addTask {
+	display: block;
+	margin-top: 7px;
+	margin-left: 8px;
+	margin-bottom: 29px;
+	width: 95px;
+	height: 30px;
+
+}
+
+#clearBtn {
+	margin-top: 7px;
+	margin-left: 8px;
+	margin-bottom: 20px;
+	width: 95px;
+	height: 30px;
+}
+
+.margin-top-in {
+	margin-top: 0px;
+}
+
+#pending {
+	padding-left: 4px;
+	width: 100%;
+	margin-bottom: 3px;
+	/*min-height: 20px;*/
+
+}
+
+#liText {
+	padding-top: 4px;
+	/*width: 98%;*/
+	width: 241px;
+	min-height: 30px;
+	border-radius: 5px;
+	background: white;
+	margin-bottom: 3px;
+	list-style: none;
+	padding-left: 4px;
+	 word-wrap: break-word;
+	display: block;
+}
+#message{
+	width: 400px;
+	height: 140px;
+	background: white;
+	z-index: 99;
+	position: absolute;
+	top: 235px;
+	right: 470px;
+	border-radius: 5px;
+	display: none;
+	
+}
+.topD{
+	width: 99%;
+	height: 40px;
+	background: #CCCCCC;
+	margin: 2px;
+	border-radius: 6px;
+	padding-top: 10px;
+	padding-right: 6px;
+	
+}
+.closeB{
+	float: right;
+	width: 20px;
+	height: 20px;
+}
+.centerD{
+	width: 100%;
+	height: 45px;
+	border-bottom: 0.5px solid #AAAAAA; 
+	padding-top: 7px;
+}
+.messageS{
+	font-size: 17px;
+	margin-left: 7px;
+	
+}
+.textM{
+	font-size: 17px;
+	margin-left: 10px;
+	
+}
+.ok{
+	float: right;
+	width: 57px;
+	height: 30px;
+	margin-right: 20px;
+	margin-top: 8px;
+	font-size: 18px;
+
+}
+#in_progress{
+	padding-left: 4px;
+	width: 100%;
+	/*min-height: 20px;*/
+	margin-bottom: 3px;
+}
+#completed{
+	padding-left: 4px;
+	width: 100%;
+	/*min-height: 20px;*/
+	margin-bottom: 3px;
+}
+#drag_to_delete{
+	
+	width: 97%;
+	border: 2px dashed;
+	display: none;
+	margin-left: 3px;
+	margin-bottom: 20px;
+	background: white;
+	
+	
+}
+#delete{
+	display: none;
+	position: relative;
+	top: 55px;
+	left: 55px;
+
+}
